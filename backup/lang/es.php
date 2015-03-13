@@ -12,5 +12,5 @@ $backup_update_info	  = "Actualización de la copia de seguridad:";
 $backup_delete_info	  = "Eliminando copia de seguridad:";
 $backup_doing	        = "Generando copia de seguridad";
 $backup_deteling	    = "Eliminando copia de seguridad";
-$backup_progres	      = "Creando nuevo archivo de almacenamiento";
+$backup_progres	      = "Creando nuevo archivo de respaldo";
 ?>
