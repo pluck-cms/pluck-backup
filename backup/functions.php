@@ -27,12 +27,12 @@ global $lang;
 			<span class="title-page"><?php echo $file; ?></span>
 			<span>
 				<a href="data/modules/backup/backups/<?php echo $file; ?>" title="<?php echo $lang['backup']['download']; ?>">
-					<img src="data/image/down.png" title="<?php echo $lang['backup']['download']; ?>" alt="<?php echo $lang['backup']['download']; ?>" /><?php echo $lang['backup']['download']; ?>
+					<img src="data/image/down.png" title="<?php echo $lang['backup']['download']; ?>" alt="<?php echo $lang['backup']['download']; ?>" />
 				</a>
 			</span>
 			<span>
 				<a href="?module=backup&amp;page=backup_delete&amp;delfile=<?php echo $file; ?>" title="<?php echo $lang['backup']['delete']; ?>">
-					<img src="data/image/delete.png" title="<?php echo $lang['backup']['delete']; ?>" alt="<?php echo $lang['backup']['delete']; ?>" /><?php echo $lang['backup']['delete']; ?>
+					<img src="data/image/delete.png" title="<?php echo $lang['backup']['delete']; ?>" alt="<?php echo $lang['backup']['delete']; ?>" />
 				</a>
 			</span>
 		</div>

@@ -9,9 +9,9 @@ function backup_info() {
 	return array(
 		'name'          => $lang['backup']['name'],
 		'intro'         => $lang['backup']['intro'],
-		'version'       => '0.6',
-		'author'        => 'A_Bach',
-		'website'       => 'http://www.pluck.ekyo.pl',
+		'version'       => '0.7',
+		'author'        => 'ekyo',
+		'website'       => 'https://github.com/pluck-cms/pluck-backup',
 		'icon'          => 'images/view.png',
 		'compatibility' => '4.7'
 	);

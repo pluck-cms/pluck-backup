@@ -4,6 +4,11 @@ defined('IN_PLUCK') or exit('Access denied!');
 
 require_once ('data/modules/backup/functions.php');
 
+if (!file_exists('data/modules/backup/backups')) {
+	mkdir ('data/modules/backup/backups');
+	chmod ('data/modules/backup/backups');
+}
+
 function backup_pages_admin() {
 	global $lang;
 	$module_page_admin[] = array(

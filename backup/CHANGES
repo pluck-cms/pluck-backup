@@ -1,4 +1,8 @@
-backup module v5
+backup module v6
+----------------------------------------
+- check if there is a backup directory
+
+backup module v6
 ----------------------------------------
 - rewritten to Pluck v4.7
 
